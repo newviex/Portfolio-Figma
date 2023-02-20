@@ -12,3 +12,38 @@ header{
     background-size: cover;
     background-position: center;
 }
+.header-brand{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 45px;
+}
+.header-brand__span{
+    color: rgb(175, 247, 67); 
+}
+/************************* NAVIGATION CSS ************************/
+nav{
+    /* background-color: orangered; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 7%;
+}
+nav ul li{
+    display: inline;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+/********************* center my FULL NAME in home page ************************/
+.header-text{
+    /* background-color: orangered; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
