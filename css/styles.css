@@ -6,3 +6,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(3,4,7,0.48), rgba(5,10,30,0.48)), url(https://github.com/KodeGo-Bootcamp/HTML-Activity-Images/blob/main/pexels-royal-anwar-450214.jpg?raw=true);
+    background-size: cover;
+    background-position: center;
+}
