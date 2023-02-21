@@ -8,7 +8,7 @@ body{
 }
 header{
     height: 100vh;
-    background-image: linear-gradient(rgba(3,4,7,0.48), rgba(5,10,30,0.48)), url(https://github.com/KodeGo-Bootcamp/HTML-Activity-Images/blob/main/pexels-royal-anwar-450214.jpg?raw=true);
+    background-image: linear-gradient(rgba(3, 4, 7, 0.587), rgba(5,10,30,0.48)), url(https://github.com/KodeGo-Bootcamp/HTML-Activity-Images/blob/main/pexels-royal-anwar-450214.jpg?raw=true);
     background-size: cover;
     background-position: center;
 }
@@ -36,9 +36,12 @@ nav ul li{
 nav ul li a{
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
 }
 /********************* center my FULL NAME in home page ************************/
+
+/***** use this to center instead text-align *****/
+
 .header-text{
     /* background-color: orangered; */
     position: absolute;
@@ -47,3 +50,20 @@ nav ul li a{
     transform: translate(-50%,-50%);
     color: white;
 }
+.header-text{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+/************************ ABOUT ME SECTION ************************/
+.about{
+    background-color: #242323;
+}
+
+/************************ MY PORTFOLIO SECTION ************************/
+
+
+/************************CONTACT SECTION ************************/
+
+
+/************************ FOOTER SECTION ************************/
