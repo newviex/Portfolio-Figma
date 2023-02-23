@@ -233,4 +233,38 @@ footer{
     background-color: #D9D9D9;
     font-weight: 300px;
 }
+
+
 /************************ FOOTER SECTION ************************/
+
+
+/************************ MEDIA QUERIES ************************/
+
+
+/************************ HERO SECTION ************************/
+@media only screen and(max-width:600px){
+    
+}
+
+
+/************************ ABOUT SECTION ************************/
+/* @media only screen and(max-width:600px){
+    
+} */
+
+
+/************************ PORTFOLIO SECTION ************************/
+/* @media only screen and(max-width:600px){
+    
+} */
+
+
+/************************ CONTACT SECTION ************************/
+/* @media only screen and(max-width:600px){
+    
+} */
+
+/************************ FOOTER SECTION ************************/
+/* @media only screen and(max-width:600px){
+    
+} */
