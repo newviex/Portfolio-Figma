@@ -3,14 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+/************************* ELEMENT SELECTORS OR GLOBAL STYLES ************************/
+
 body{
     font-family: 'Poppins', sans-serif;
 }
-header{
+.header{
     height: 100vh;
     background-image: linear-gradient(rgba(3, 4, 7, 0.587), rgba(5,10,30,0.48)), url(https://github.com/KodeGo-Bootcamp/HTML-Activity-Images/blob/main/pexels-royal-anwar-450214.jpg?raw=true);
     background-size: cover;
     background-position: center;
+}
+.header__image{
+    display: none;
 }
 .header-brand{
     color: white;
@@ -50,9 +55,12 @@ nav ul li a{
     transform: translate(-50%,-50%);
     color: white;
 }
-.header-text{
-    font-size: 30px;
+.header-text h1{
+    font-size: 70px;
     margin-top: 10px;
+}
+.header-text--2{
+    display: none;
 }
 
 /************************ ABOUT ME SECTION ************************/
@@ -242,9 +250,50 @@ footer{
 
 
 /************************ HERO SECTION ************************/
-@media only screen and(max-width:600px){
+@media only screen and (max-width: 600px){
+
+    .header {
+        background-image: none;
+        background-color: #242324;
+    }
     
+    .header__image {
+        display: block;
+    }
+    
+    .header__image img {
+        object-fit: cover;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+    .header-text{
+        display: none;
+    }
+    .header-text--2{
+        display: block;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+    .header-text--2 h2{
+        font-size: 20px;
+        font-weight: 200;
+        line-height: 1.8;
+    }
+    .header-text--2 span{
+        color: #20E700;
+    }
 }
+
+
+
 
 
 /************************ ABOUT SECTION ************************/
