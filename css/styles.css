@@ -377,6 +377,7 @@ footer {
     .about-text h2 {
         font-size: 50px;
         padding-top: 0;
+        font-weight: 800;
     }
     .about-text p {
         text-align: left;
@@ -398,17 +399,24 @@ footer {
     .portfolio {
      height: 180vh;
     }
+    .portfolio h2 {
+        font-size: 60px;
+        padding-top: 0;
+        font-weight: 800;
+    }
     .portfolio__img img {
       height: 280px;
       width: 70%;
       margin: 0 auto;
+      margin-bottom: 5%;
+    }
+    .portfolio__btn {
+        font-size: 4rem;
     }
     /* .portfolio__container {
      
     
-    .portfolio h2 {
-      
-    }
+   
     
     .portfolio__img {
       
@@ -416,9 +424,7 @@ footer {
     
     
     
-    .portfolio__btn {
-    
-    } */
+    */
     
 } 
 /*-------------------------CONTACT SECTION -------------------------*/
