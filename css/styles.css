@@ -342,39 +342,46 @@ footer {
     .header-text--2 span{
         color: #20e700;
     }
-
-/* 
-    .header-brand {
-       
-    }
-
-    .header-brand__span {
-      
-    }
-
-    nav {
-      
-    }
-
-    nav ul li {
-       
-    }
-
-    nav ul li a {
-       
-    }
-
-   
-
-    .header-text h1 {
-       
-    } */
 }
 
 /*-------------------------ABOUT SECTION -------------------------*/
-/* @media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px){
+    .about {
+        padding-top: 10%;
+        height: 150vh;
+    }
+    .about-img{
+        display: block;
+        text-align: center;
+        padding: 0 3% 5% 0;
+    }
+/*     
+    .about-text {
+
+    }
     
-} */
+    .about-text h2 {
+
+    }
+    
+    .about-text p {
+
+    }
+    
+    .about-skills {
+ 
+    }
+    
+    .about-skills h3 {
+
+    }
+    
+    .about-skills__h3--1 {
+
+    } */
+    
+}
+
 
 /*-------------------------PORTFOLIO SECTION -------------------------*/
 /* @media only screen and (max-width: 600px){
