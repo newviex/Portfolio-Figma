@@ -87,6 +87,9 @@ nav ul li a {
     background-color: #242323;
     height: 80vh;
 }
+.about-img{
+    display: none;
+}
 
 .about-text {
     /* background-color: orangered; */
