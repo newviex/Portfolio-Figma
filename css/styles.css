@@ -125,7 +125,7 @@ nav ul li a {
 }
 
 .about-skills h3 {
-    padding-right: 5%;
+    padding-right: 10%;
 }
 
 .about-skills__h3--1 {
@@ -392,26 +392,35 @@ footer {
     .about__para--1{
         color: #20E700;
     }
-    .about-skills {
- 
+}
+/*-------------------------PORTFOLIO SECTION -------------------------*/
+@media only screen and (max-width: 600px){
+    .portfolio {
+     height: 180vh;
     }
-/*     
+    .portfolio__img img {
+      height: 280px;
+      width: 70%;
+      margin: 0 auto;
+    }
+    /* .portfolio__container {
+     
     
-    .about-skills h3 {
-
+    .portfolio h2 {
+      
     }
     
-    .about-skills__h3--1 {
-
+    .portfolio__img {
+      
+    }
+    
+    
+    
+    .portfolio__btn {
+    
     } */
     
-}
-
-
-/*-------------------------PORTFOLIO SECTION -------------------------*/
-/* @media only screen and (max-width: 600px){
-    
-} */
+} 
 /*-------------------------CONTACT SECTION -------------------------*/
 /* @media only screen and (max-width: 600px){
     
