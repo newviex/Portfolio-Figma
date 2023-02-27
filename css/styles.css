@@ -374,14 +374,12 @@ footer {
     .about-text {
         width: 80%;
     }
-    
-/*     
-    
-    
     .about-text h2 {
-
+        font-size: 50px;
+        padding-top: 0;
     }
-    
+/*     
+
     .about-text p {
 
     }
