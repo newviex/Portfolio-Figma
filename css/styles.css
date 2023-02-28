@@ -161,13 +161,14 @@ nav ul li a {
 .portfolio__img {
     border-radius: 10px;
     position: relative;
-    transition: .5s;
+    transition: .5s ease;
 }
+
 .portfolio__img:hover{
-    transform: scaleY(1.1);
+    transform: scaleY(.5);
 }
 .portfolio__img img {
-    object-fit: cover;
+    object-fit:cover;
     width: 100%;
     height: 400px;
     border-radius: 10px;
@@ -183,11 +184,10 @@ nav ul li a {
     text-decoration: none;
     padding: .5% 1%;
 }
-
 /*******************************CONTACT SECTION *******************************/
 .contact {
     background-color: #312D2D;
-    height: 80vh;
+    height: 100vh;
     margin-top: 300px;
     padding: 5%;
     color: #fff;
@@ -401,7 +401,7 @@ footer {
 /*-------------------------PORTFOLIO SECTION -------------------------*/
 @media only screen and (max-width: 600px){
     .portfolio {
-     height: 150vh;
+     height: 110vh;
     }
     .portfolio h2 {
         font-size: 60px;
@@ -416,7 +416,10 @@ footer {
       margin-bottom: 5%;
     }
     .portfolio__btn {
-        font-size: 4rem;
+        font-size: 2rem;
+        height: 54px;
+        width: 7px;
+        border-radius: 10px;
     }
  
 } 
